@@ -6,11 +6,11 @@ function fac(n)
         n*fac(n-1)
     elseif n > 0
         n
-    elseif n == 0 <1>
+    elseif n == 0
         1
     else
-        err = DomainError(n, "`n` must not be negative.") <2>
-        throw(err) <3>
+        err = DomainError(n, "`n` must not be negative.")
+        throw(err)
     end
 end
 
