@@ -1,0 +1,8 @@
+11:38:36,hawaiian,M,classic,13.25
+11:57:40,classic_dlx,M,classic,16
+11:57:40,mexicana,M,veggie,16
+11:57:40,thai_ckn,L,chicken,20.75
+11:57:40,five_cheese,L,veggie,18.5
+11:57:40,ital_supr,L,supreme,20.75
+12:12:28,prsc_argla,L,supreme,20.75
+12:12:28,ital_supr,M,supreme,16.5
