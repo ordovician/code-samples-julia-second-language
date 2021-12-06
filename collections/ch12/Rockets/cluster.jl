@@ -29,10 +29,9 @@ end
     Cluster(engines::Engine...)
 Create a cluster of at least one engine.
 """
-function Cluster(engine::Engine, engines::Engine...)    
-    T = typeof(engine)
-    Ts = map(typeof, engines)
-    if all(==(T), Ts)
+function Cluster(engine::Engine, engines::Engine...)
+    sametype(e) = (typeof(engine) == typeof(e))
+    if all(sametype, engines)
         UniformCluster(engine, length(engines) + 1)
     else
         MixedCluster([engine, engines...])

@@ -3,7 +3,7 @@ export StagedRocket
 """
 A staged rocket is made up of multiple stages which are rockets themselves
 """
-struct StagedRocket <: Rocket
+mutable struct StagedRocket <: Rocket
     nextstage::Rocket
     tank::Tank
     engine::Engine
