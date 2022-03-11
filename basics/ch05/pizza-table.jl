@@ -10,13 +10,13 @@ pizzas = [
    ("thai chicken", 'L', 20.75),
  ]
  
- name(pizza)    = pizza[1]
- portion(pizza) = pizza[2]
- price(pizza)   = pizza[3]
+name(pizza)    = pizza[1]
+portion(pizza) = pizza[2]
+price(pizza)   = pizza[3]
 
- issmall(pizza)  = portion(pizza) == 'S'
- islarge(pizza)  = portion(pizza) == 'L'
- isbbq(pizza)    = name(pizza) == "bbq chicken"
+issmall(pizza)  = portion(pizza) == 'S'
+islarge(pizza)  = portion(pizza) == 'L'
+isbbq(pizza)    = name(pizza) == "bbq chicken"
        
 function print_pizzatable(pizzas)
     print("│ ")
