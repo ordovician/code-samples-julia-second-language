@@ -1,0 +1,7 @@
+name,company,mass,thrust,Isp
+Curie,Rocket Lab,0.008, 0.12,317
+RS-25,Aerojet Rocketdyne,3.527,1860,366
+Merlin 1D,SpaceX,0.47,845,282
+Kestrel 2,SpaceX,0.052,31,317
+RD-180,NPO Energomash,5.48,3830,311
+Rutherford,Rocket Lab,0.035,25,311
